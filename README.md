@@ -1,15 +1,14 @@
 # paperdetails-bot
 
-**Find the preprints. Translate the hype. Keep the caveats.**
+**Find the preprints.Simplify.  Keep the caveats.**
 
-A small Next.js web app that searches recent arXiv preprints by keyword and drafts editable, satirical, Reddit-ready Markdown summaries.
+A small Next.js web app that searches recent arXiv preprints by keyword and drafts editable, simplified summaries.
 
 ## Features
 
 - Live keyword search against the public arXiv Atom API
 - Comma-separated keyword queries, date window, and result count
 - Paper title, authors, abstract, categories, publication date, abstract/PDF links
-- Reddit-ready Markdown draft with a dry, skeptical, or gentle tone
 - Edit, copy, or export the draft as `.md`
 - Demo dataset for trying the interface without a live API request
 - Responsive layout and clear preprint / human-review caveats
@@ -47,7 +46,7 @@ Deploy on Vercel or another Node-compatible host:
 2. Import the repository into Vercel.
 3. Deploy with the default Next.js settings.
 
-No API key is required for the current template-based version. The app needs outbound network access to `export.arxiv.org` for live search.
+**No API key** is required for the current template-based version. The app needs outbound network access to `export.arxiv.org` for live search.
 
 ## API
 
