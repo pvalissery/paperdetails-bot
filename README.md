@@ -59,15 +59,6 @@ No API key is required for the current template-based version. The app needs out
 
 Returns `{ query, papers, source, fetchedAt }`, or an `error` object on failure.
 
-## Roadmap
-
-- [ ] Add configurable sources (bioRxiv, medRxiv, Europe PMC)
-- [ ] Add abstract-grounded LLM summaries with source quotations and strict no-hallucination constraints
-- [ ] Add deduplication, relevance ranking, and saved searches
-- [ ] Add tests for XML parsing, date filtering, and prompt safety
-- [ ] Add optional Reddit post templates per subreddit
-- [ ] Add rate limiting, caching, and upstream retry/backoff for deployment
-
 ## Responsible use
 
 - Preprints are not necessarily peer reviewed.
